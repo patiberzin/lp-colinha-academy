@@ -6,6 +6,23 @@
   font-family: "Fira Code", monospace;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container-menu,
+.header {
+  margin: 0;
+  padding: 0;
+}
+
+.container-menu h1,
+.header-content h1,
+.header-content p {
+  margin: 0;
+  padding: 0;
+}
 
 a {
   text-decoration: none;
@@ -537,12 +554,22 @@ ul, ol {
       text-align: center;
   }
 
+  .header-content {
+    padding-top: 0;
+  }
+
   .header-content h1 {
       font-size: 2.2rem;
+      margin-bottom: 10px;
   }
 
   .header-content p {
       font-size: 1rem;
+      margin-bottom: 20px;
+  }
+
+  .btn {
+    margin-bottom: 20px;
   }
 
   .container-about {
@@ -717,12 +744,18 @@ ul, ol {
       padding: 0 30px;
   }
 
+  .header-content {
+    padding-top: 30px;
+  }
+
   .header-content h1 {
       font-size: 2.5rem;
+      margin: 0 30px 10px 0;
   }
 
   .header-content p {
       font-size: 1.1rem;
+      margin: 0 30px 10px 0;
   }
 
   .container-about {
