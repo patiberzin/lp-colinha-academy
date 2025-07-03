@@ -16,7 +16,14 @@
   <nav class="container-menu">
     <h1>Colinha Frontend Academy</h1>
     <ul class="menu-nav">
-      <li><a href="#">Entrar</a></li>
+      <li class="dropdown">
+        <a href="#" id="btn-login">Entrar</a>
+        <div class="dropdown-login hidden">
+          <input type="email" placeholder="Seu e-mail">
+          <input type="password" placeholder="Sua senha">
+          <button class="btn">Entrar</button>
+        </div>
+      </li>
       <li><a href="#inscricao">Cadastre-se</a></li>
     </ul>
   </nav>

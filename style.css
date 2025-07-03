@@ -79,6 +79,43 @@ ul, ol {
   padding: 5px;
 }
 
+/* Dropdown de login */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-login {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.dropdown-login input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dropdown-login .btn {
+  padding: 8px;
+  font-size: 0.9rem;
+}
+
+.hidden {
+  display: none;
+}
+
 /* --- Header --- */
 .header {
   background-image: url('bg-foguete.png'); 

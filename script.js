@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 5000);
     }
 
-    // Funcionalidade para scroll suave para todos os botões com href="#inscricao"
+    // Scroll suave para todos os botões com href="#inscricao"
     const botoesScrollInscricao = document.querySelectorAll('a.btn[href="#inscricao"]');
     botoesScrollInscricao.forEach(botao => {
         botao.addEventListener('click', (evento) => {
@@ -23,21 +23,18 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Funcionalidade para expandir/colapsar respostas do FAQ
+    // Expandir/colapsar respostas do FAQ
     const itensFaq = document.querySelectorAll('.faq-item h3');
     itensFaq.forEach(titulo => {
         titulo.addEventListener('click', () => {
             const resposta = titulo.nextElementSibling;
             if (resposta) {
-                if (resposta.style.display === 'block') {
-                    resposta.style.display = 'none';
-                } else {
-                    resposta.style.display = 'block';
-                }
+                resposta.style.display = (resposta.style.display === 'block') ? 'none' : 'block';
             }
         });
     });
 
+    // Validação e envio do formulário de cadastro
     const formularioCadastro = document.querySelector('.signup-form');
     if (formularioCadastro) {
         formularioCadastro.addEventListener('submit', async (evento) => {
@@ -71,4 +68,22 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
-});  // <-- Fechando o DOMContentLoaded corretamente
+
+    // Dropdown de login
+    const btnLogin = document.getElementById("btn-login");
+    const dropdownLogin = document.querySelector(".dropdown-login");
+
+    if (btnLogin && dropdownLogin) {
+        btnLogin.addEventListener("click", (e) => {
+            e.preventDefault();
+            dropdownLogin.classList.toggle("hidden");
+        });
+
+        // Fecha o dropdown se clicar fora
+        window.addEventListener("click", (e) => {
+            if (!dropdownLogin.contains(e.target) && !btnLogin.contains(e.target)) {
+                dropdownLogin.classList.add("hidden");
+            }
+        });
+    }
+});
