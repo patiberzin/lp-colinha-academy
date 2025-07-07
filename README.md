@@ -1,6 +1,5 @@
-# Landing Page - Colinha Frontend Academy (Venda de Cursos Online)
-
-Landing page criada para o projeto fictício “Colinha Frontend Academy”, uma plataforma de cursos online que ajuda iniciantes a se profissionalizar na área de frontend.
+# Landing Page Colinha Frontend Academy 🚀  
+Landing page fictícia de vendas, criada para demonstrar design estratégico, copy e front-end focado em alta performance.
 
 ## Mockup no Figma (Design Estático)
 
