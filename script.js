@@ -87,3 +87,17 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+//A PARTIR DAQUI
+
+const nome = "Patrícia"; 
+// valor que não muda
+
+let idade = 28; 
+// valor que pode mudar
+
+
+
+
+
+

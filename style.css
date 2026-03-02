@@ -40,6 +40,7 @@ ul, ol {
   background-color: #F52FF5;
   color: #fff;
   font-weight: bold;
+  font-size: 1.5rem;
   padding: 12px 24px;
   border-radius: 8px;
   text-decoration: none;
@@ -470,7 +471,7 @@ ul, ol {
 
 /* Formulário de cadastro */
 .container-signup {
-  padding: 80px 20px;
+  padding: 64px;
   text-align: center;
   background-color: #040A42;
   color: #fff;
@@ -486,7 +487,7 @@ ul, ol {
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 64px;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -496,8 +497,9 @@ ul, ol {
   flex-direction: column;
   gap: 20px;
   flex: 1;
+  height: 48px;
   min-width: 300px;
-  max-width: 450px;
+  max-width: 560px;
   text-align: left;
 }
 
@@ -517,7 +519,7 @@ ul, ol {
 
 .signup-form .btn {
   width: 100%;
-  margin-top: 15px;
+  margin-top: 16px;
   text-align: center;
 }
 
@@ -532,8 +534,8 @@ ul, ol {
 
 .social-media p {
   font-size: 1.1rem;
-  margin-bottom: 10px;
-  text-align: center;
+  margin: 0 64px 10px 0;
+  text-align: left;
 }
 
 .container-robo {
@@ -546,9 +548,13 @@ ul, ol {
   margin-bottom: 20px;
 }
 
+.social-icons:first-child {
+  margin-left: 40px;
+}
+
 .social-icons img {
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
   transition: transform 0.2s ease;
 }
 
@@ -557,8 +563,7 @@ ul, ol {
 }
 
 .img-robot {
-  max-width: 200px;
-  height: auto;
+  margin-top: 64px;
 }
 
 /* Rodapé */
@@ -566,8 +571,8 @@ ul, ol {
   background-color: #020331;
   color: #aaa;
   text-align: center;
-  padding: 20px;
   font-size: 0.9rem;
+  padding: 30px;
 }
 
 /* Media Queries */
