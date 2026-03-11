@@ -584,7 +584,13 @@ ul, ol {
       padding: 20px;
   }
 
-  .container-menu h1 {
+  .container-menu h1,
+  .container-about h2,
+  .container-choice h2,
+  .container-marketing h2,
+  .container-testimonials h2,
+  .container-faq h2,
+  .container-signup h2 {
       margin-bottom: 15px;
       font-size: 1.5rem;
   }
@@ -618,6 +624,7 @@ ul, ol {
   .btn {
     margin-bottom: 40px;
     font-size: 1rem;
+    text-align: center;
   }
 
   .container-about {
@@ -634,6 +641,8 @@ ul, ol {
   .container-choice {
       padding: 60px 15px;
   }
+
+ 
 
   .choices {
       gap: 30px;
@@ -874,7 +883,4 @@ ul, ol {
       flex: 0.7;
   }
 
-  .img-robot {
-      max-width: 180px;
-  }
 }
