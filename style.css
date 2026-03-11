@@ -771,7 +771,7 @@ ul, ol {
   
   .signup-form input {
       width: 100%;
-      max-width: 300px;
+      
   }
 
   .signup-form .btn {
@@ -781,7 +781,7 @@ ul, ol {
   .social-media {
       gap: 15px;
       margin-top: 20px;
-      width: 100%;
+     
   }
 
   .social-media p {
