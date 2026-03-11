@@ -785,7 +785,8 @@ ul, ol {
   }
 
   .social-media p {
-      padding: 0 15px;
+      padding: 0 5px;
+      font-size: 1rem;
   }
 
   .img-robot {
