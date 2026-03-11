@@ -603,6 +603,7 @@ ul, ol {
   .header-content h1 {
       font-size: 1.5rem;
       margin-bottom: 10px;
+      margin-top: 20px;
   }
 
   .img-robot {
@@ -615,7 +616,7 @@ ul, ol {
   }
 
   .btn {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 1rem;
   }
 
