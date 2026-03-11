@@ -591,7 +591,7 @@ ul, ol {
 
   .header {
       height: 300px;
-      padding: 60px 20px;
+      padding: 60px 20px; !important
       justify-content: center;
       text-align: center;
   }
@@ -603,6 +603,10 @@ ul, ol {
   .header-content h1 {
       font-size: 2.2rem;
       margin-bottom: 10px;
+  }
+
+  .img-robot {
+    display: none;
   }
 
   .header-content p {
